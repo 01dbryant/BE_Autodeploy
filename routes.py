@@ -10,6 +10,10 @@ def home():
 def health():
     return jsonify({"status": "healthy"})
 
+
+@api.route('/status')
+def status():
+    return jsonify({"status": "CI/CD pipeline working!", "version": "1.0"})
 # Add your other routes here
 # Example:
 # @api.route('/items', methods=['GET'])
