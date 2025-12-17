@@ -1,0 +1,9 @@
+# After deployment, replace these lines in static/swagger.json:
+
+# Change this:
+"host": "127.0.0.1:5000",
+"schemes": ["http"],
+
+# To this (use YOUR actual Render URL):
+"host": "your-api-name.onrender.com",
+"schemes": ["https"],
